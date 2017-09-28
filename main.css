@@ -24,7 +24,17 @@ nav {
   margin-right: 2rem;
   font-weight: bold;
   color: white;
+  transition: .5s ease;
 }
+
+.exp {
+  transition: .5s ease;
+}
+
+.list-nav li:hover, .exp:hover {
+  color: black;
+}
+
 
 .main {
   width: 80%;
