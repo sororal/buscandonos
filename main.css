@@ -49,9 +49,41 @@ h1 {
   color: white;
   padding: 1rem 1.5rem;
   background-color: rgba(157, 123, 181, 0.5);
+  transition: .5s ease;
 }
 
+.button-text:hover {
+  background-color: rgb(157, 123, 181);
+}
+
+
+
 .button-text-teal {
+  color: white;
+  padding: 1rem 1.5rem;
+  background-color: rgba(94, 184, 136, 0.5);
+  font-size: 2rem;
+}
+
+
+
+a {
+  text-decoration: none;
+}
+
+#example-five {
+  position: relative;
+}
+#example-five-checkbox {
+  display: none;
+}
+#example-five-checkbox:checked + #example-five:after {
+  content: "mándanos un correo a contacto@buscandonos.org";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   color: white;
   padding: 1rem 1.5rem;
   background-color: rgba(94, 184, 136, 0.5);
@@ -81,6 +113,7 @@ h1 {
   transform: translate(-50%, -50%);
   vertical-align: middle;
 }
+
 
 h3 {
   font-size: 3rem;
